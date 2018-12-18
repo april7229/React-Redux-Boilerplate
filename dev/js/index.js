@@ -10,6 +10,6 @@ import App from './components/app';
 const store = createStore(allReducers);
 ReactDOM.render( 
 <Provider store = {store}>
-<App />
-    </Provider>,
-    document.getElementById( 'root' ) );
+    <App />
+</Provider>,
+document.getElementById( 'root' ) );
